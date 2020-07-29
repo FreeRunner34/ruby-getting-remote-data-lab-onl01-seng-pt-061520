@@ -1,4 +1,4 @@
-require_relative
+
 require 'net/http'
 require 'open-uri'
 require 'json'
@@ -21,5 +21,5 @@ class GetRequester
 end 
 
 
-get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
+# get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
 
